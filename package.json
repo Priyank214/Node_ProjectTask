@@ -1,0 +1,21 @@
+{
+  "name": "node_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "priyank rajai",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.1",
+    "cluster": "^0.7.7",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.4",
+    "os": "^0.1.2",
+    "redis": "^4.7.0"
+  }
+}
